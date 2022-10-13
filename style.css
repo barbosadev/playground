@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(213, 225, 239, 1);
+  padding: 0 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: #fff;
+  font-family: Outfit;
+  border-radius: 20px;
+  text-align: center;
+  padding: 16px 16px 40px 16px;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  color: rgb(31, 49, 79);
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.instructions {
+  margin: 16px 16px 0 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(125, 136, 158);
+}
+
+.qr-code-box {
+  background: #3685ff;
+  padding: 64px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ball {
+  background: #2c7dfa;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.ball-one {
+  width: 328px;
+  height: 328px;
+  left: -196.5px;
+  top: -163.5px;
+}
+
+.ball-two {
+  width: 270px;
+  height: 270px;
+  left: 131.5px;
+  top: 204.5px;
+}
+
+.qr-code {
+  z-index: 1;
+  position: relative;
+}
